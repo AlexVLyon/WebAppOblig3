@@ -7,6 +7,7 @@
     - cat > file.txt
     - eller echo 'tekst jeg vil ha i file' > file.txt
 - Endre den fra kommandolinjen
+    - Bruker her programmet nano for å endre filen:
     - nano file.txt
 - Slette filen
     - rm file.txt
