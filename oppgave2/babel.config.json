@@ -1,0 +1,4 @@
+{"presets": ["@babel/presets-env","@babel/preset-react"],
+"@babel/plugin-proposal-nullish-coalescing-operator": "^7.8.3",
+"@babel/plugin-proposal-optional-chaining": "^7.10.0"
+}
