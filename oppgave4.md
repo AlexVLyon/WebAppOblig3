@@ -1,11 +1,11 @@
 # HIOF.NO
 * Antall bilder på forsiden
-    const images = document.images
-    undefined
-    console.log(images)
-    VM984:1 HTMLCollection(4) [img, img, img, img]
+    - const images = document.images
+    - undefined
+    - console.log(images)
+    - VM984:1 HTMLCollection(4) [img, img, img, img]
 
-     Altså: <ins>4 bilder </ins>
+     - Altså: <ins>4 bilder </ins>
 
 * tid med og uten cache:
     - Med cache: 
