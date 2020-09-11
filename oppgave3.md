@@ -1,45 +1,21 @@
 # Oppgave 3:
 
-
-
-$ git switch oppgave3
-Switched to branch 'oppgave3'
-
-## Lage fil i dev branch lokalt (hiof.js fil med console.log("hiof"))
-
-- $ git add hiof.js
-
-- $ git commit
- - [oppgave3 cbf956d3] Created hiof.js
- - 1 file changed, 1 insertion(+)
- - create mode 100644 oppgave2/hiof.js
-
-- $ git push
-
-- $ git remote https://github.com/AlexVLyon/WebAppOblig3
-
-Pushe endringene til repo
-Lage en fil i dev branch remote
-Hente endringene lokalt
-
-
-- Sette opp nytt repo i Github
-- Lage dev branch lokalt
+## Lage dev branch lokalt
     - $ git branch oppgave3
-- Lage fil i dev branch lokalt (hiof.js fil med console.log("hiof"))
+## Lage fil i dev branch lokalt (hiof.js fil med console.log("hiof"))
     - $ git add hiof.js
-- Commite disse
+## Commite disse
     - $ git commit
      - [oppgave3 cbf956d3] Created hiof.js
      - 1 file changed, 1 insertion(+)
      - create mode 100644 oppgave2/hiof.js
 
-- Pushe endringene til repo
+## Pushe endringene til repo
     - $ git push
-- Lage en fil i dev branch remote
-- Hente endringene lokalt
+## Lage en fil i dev branch remote
+## Hente endringene lokalt
     - git pull
-- Merge filene fra dev i master
+## Merge filene fra dev i master
     - $ git switch master
     - $git merge oppgave3
         - får error: The following untracked working tree files would be overwritten by merge:
@@ -47,20 +23,14 @@ Hente endringene lokalt
         - må fikse merge conflict for det jeg akuratt skrev
     - $git merge oppgave3
         - de er merget 
-- Samarbeide med en kollega eller en annen konto du har for å få til merge conflict
+## Samarbeide med en kollega eller en annen konto du har for å få til merge conflict
     - Bruker en annen pc og skriver dette her i oppgave3.md
 
-
-
-- Resolve merge conflict
-
-
+## Resolve merge conflict
     - //<<<<<<< HEAD
         -skriver dette på en annen pc.
 
     - //=======
         - Bruker en annen pc og skriver dette her i oppgave3.md
     - //>>>>>>> 1eafdb33ec9ab898be35d85e1a0f8fa10e0aae0b
-    -test
     
-- (frivillig prøve ut stash, pop og cherry-pick)
