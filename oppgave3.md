@@ -43,5 +43,7 @@ Hente endringene lokalt
     - $ git switch master
     - 
 - Samarbeide med en kollega eller en annen konto du har for å få til merge conflict
+    -skriver dette på en annen pc.
+
 - Resolve merge conflict
 - (frivillig prøve ut stash, pop og cherry-pick)
