@@ -41,11 +41,25 @@ Hente endringene lokalt
     - git pull
 - Merge filene fra dev i master
     - $ git switch master
-    - git merge oppgave3
-        -får error: The following untracked working tree files would be overwritten by merge:
-    - git add
+    - $git merge oppgave3
+        - får error: The following untracked working tree files would be overwritten by merge:
+        - bruker git push og det funker
+        - må fikse merge conflict for det jeg akuratt skrev
+    - $git merge oppgave3
+        - de er merget 
 - Samarbeide med en kollega eller en annen konto du har for å få til merge conflict
-    -skriver dette på en annen pc.
+    - Bruker en annen pc og skriver dette her i oppgave3.md
+
+
 
 - Resolve merge conflict
+
+
+    - //<<<<<<< HEAD
+        -skriver dette på en annen pc.
+
+    - //=======
+        - Bruker en annen pc og skriver dette her i oppgave3.md
+    - //>>>>>>> 1eafdb33ec9ab898be35d85e1a0f8fa10e0aae0b
+    
 - (frivillig prøve ut stash, pop og cherry-pick)
