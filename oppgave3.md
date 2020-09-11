@@ -27,6 +27,7 @@
     - Bruker en annen pc og skriver dette her i oppgave3.md
 
 ## Resolve merge conflict
+    - trykker "Accept incoming" i VS code
     - //<<<<<<< HEAD
         -skriver dette på en annen pc.
 
