@@ -41,7 +41,9 @@ Hente endringene lokalt
     - git pull
 - Merge filene fra dev i master
     - $ git switch master
-    - 
+    - git merge oppgave3
+        -får error: The following untracked working tree files would be overwritten by merge:
+    - git add
 - Samarbeide med en kollega eller en annen konto du har for å få til merge conflict
 - Resolve merge conflict
 - (frivillig prøve ut stash, pop og cherry-pick)
