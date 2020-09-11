@@ -13,3 +13,5 @@ Switched to branch 'oppgave3'
  - [oppgave3 cbf956d3] Created hiof.js
  - 1 file changed, 1 insertion(+)
  - create mode 100644 oppgave2/hiof.js
+
+- $ git push
