@@ -61,5 +61,6 @@ Hente endringene lokalt
     - //=======
         - Bruker en annen pc og skriver dette her i oppgave3.md
     - //>>>>>>> 1eafdb33ec9ab898be35d85e1a0f8fa10e0aae0b
+    -test
     
 - (frivillig prøve ut stash, pop og cherry-pick)
